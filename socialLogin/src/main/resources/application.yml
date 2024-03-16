@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: socialLogin
+
+  security:
+    oauth2:
+      resource-server:
+        opaque-token:
+          introspection-uri: https://www.googleapis.com
+          client-id: ccccccccccccccccccc
+          client-secret: ccccccccccccccccccc
+
+#      github:
+#        client-id: ***************
+#        client-secret: ********************************
+
+angularFrontendLocalHostUrl: http://localhost:4200
+angularFrontendRemoteUrl: http://remoteurl
